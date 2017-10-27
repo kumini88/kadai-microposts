@@ -1,0 +1,8 @@
+
+
+<%= link_to favorite_users_micropost_path(micropost), class: "btn btn-link btn-xs" do %>
+  FavUsers
+  <span class="badge">
+    <%= micropost.favorites.count %>
+  </span>
+<% end %>
